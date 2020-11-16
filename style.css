@@ -8,8 +8,7 @@
     background-color: silver;
     margin: 0px auto;
     padding:20px;
-    overflow: hidden;
-    height:auto;
+    
    }
    #header{
     min-height: 150px;
@@ -20,27 +19,33 @@
     min-height: 300px;
     width: 200px;
     background-color: blue;
-    float:left;
+    display: inline-block;
+    margin-right: 1.25em;
+
    }
    #main_content{
     padding:5px;
     min-height: 400px;
     width: 700px;
     background-color: red;
-    float: right;
-    margin-right:10px;
+    display: inline-block;
+    vertical-align: top;
+    
+    
    }
    .subcontents{
-    margin: 5px 0 0 5px ;
+    margin-top: .5em;
+    margin-left:.5em;
     display: inline-block;
     min-height: 200px;
     width: 210px;
     background-color: yellow;
    }
    #advertisement{
-    margin:20px 0px 0px 5px;
+    margin-left:.5em;
+    margin-top: 1em;
     min-height: 120px;
-    width: 650px;
+    width: 660px;
     background-color: purple;
    }
    
